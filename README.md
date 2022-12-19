@@ -55,6 +55,10 @@ aws s3 ls s3://<S3bucketName>
 
 # To copy the files from EC2 to S3
 aws s3 cp <Fully Qualified Local filename> s3://<S3BucketName>
+ 
+# Docker copy command
+ docker cp CONTAINER_ID:SOURCE_PATH DESTINATION_PATH
+docker cp SOURCE_PATH CONTAINER_ID:DESTINATION_PATH
 
 
 
